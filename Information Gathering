@@ -20,5 +20,144 @@ Example:
 b) active information gathering = actively engaging to gather the info with the target system 
  PS: REQUIRE AUTHORIZATION IN ORDER TO PERFORM ACTIVE INFO GATHERING
 
+WHAT INFO ARE WE LOOKING FOR ??
+
+Passive info gathering
+- identiy IP Address @ DNS info
+- indentify domain names and domain ownership info
+- identify email address and social media profiles
+- identify web tech being used on target sites
+- identify subdomains
+
+Active Gathering
+- discoevring open poerts on target system
+- learning about internal infrastructure of a target network / organization
+- enumerating info from target system
+
+-------------------------------------------------------------------------------
+
+TARGET SCOPING
+
+Lesson Objectvie 
+- what is target scoping means in pentes
+- how to identify whats in scope and out of scope
+
+-------------------------------------------------------------------------------
+
+WHAT IS TARGET SCOPING??
+
+1. process of defining exactly what systems, networks or applications you are allowed to test
+PS: Only for the one that is authorized only
+
+-------------------------------------------------------------------------------
+
+Common types of targets
+-- during reconn, targets are usually defined in 1 or more of the following ways
+
+Domain-Based Targets
+Examples: exampl.com, testsite.local
+a domain based scope may include:
+- the primary domain
+- subdomain 
+
+IP Based Target
+- a single ip address
+- a network range
+* commonly in internal or lab based env or cloud based
+
+Application-based targets
+- a specific web app
+- a login portal / api endpoint
+* focus on application/endpoint, not entire server
+
+-------------------------------------------------------------------------------
+In-Scope
+assest you are allowed to 
+- collect info from
+- scan
+-enumerate
+
+Out-scope 
+assest you must not interact with
+- third part services
+- external domain not listed in scope
+- systems owned by another org
+-------------------------------------------------------------------------------
+
+WHY SCOPING  MATTERS
+
+its about collecting useful info, not collect all info
+- without proper scoping:
+-- you may scan irrelevant hosts
+-- you may miss the actual tagret
+-- your results become noisy and confusing
+
+- a well defined scope keeps your reconn
+-- focues
+-- efficient
+-- relevant to later stages
+
+PS: DEFINED THIS WITH THE COMPANY
+-------------------------------------------------------------------------------
+
+PASSIVE VS ACTIVE RECONN
+
+Lesson Objective
+
+* understand between active and passive
+* a simple, repeatable reconn strategy to follow before using tools
+* focus on methodology, not tools
+
+-------------------------------------------------------------------------------
+
+PAssive Info Gathering
+
+- gather info without directly interact with the target systems
+
+characteristic
+- no direct connection to target system
+- low risk detection
+- usually performed first
+
+examples of passive recon data:
+- domain registration info
+- dns records
+-public website content
+- search engine results -- eg: google docking
+- publicly avaialble email address
+
+-------------------------------------------------------------------------------
+
+Active Info Gathering
+- invovled direct interaction with target systesm
+
+characteristics:
+- send traffic to the target
+- increased visibility
+- typically perfomered after passive recon
+
+Examples of passive recon data
+- live hosts
+- open ports
+- running services
+- network responses
+
+* ALWAYS START WITH PASSIVE THEN ACTIVE RECONN
+-------------------------------------------------------------------------------
+
+What info are we trying to collect??
+- During info gathering, ur goal is to build a map of the target.
+
+- domains and subdomain
+- ip address
+- hosting infrastructure
+- technologies and services
+- open ports
+- publicly exposed info
+
+
+
+
+
 
 
