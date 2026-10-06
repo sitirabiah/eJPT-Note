@@ -16,16 +16,35 @@ Firefox
 Curl
 HTTrack
 
-Flag 1: This tells search engines what to and what not to avoid.
+## Flag 1: Web technology and version
+
+**Objective:** This tells search engines what to and what not to avoid.
 
 go to the robots.txt which is a text file placed in a website's root directory that tells search engine crawlers and 
 web bots which pages or sections of the site they are allowed to visit
 
+**Command:**
+```bash
+http://target.ine.local/robots.txt
+```
+
 ![Flag 1](images/flag1.png)
 
-Flag 2: What website is running on the target, and what is its version?
+## Flag 2: Web technology and version
 
-using whatweb to identify website technologies and server details
+**Objective:** Identify the website software and its version.
+
+**Command:**
+```bash
+whatweb http://target.ine.local
+```
+
+**Finding:** The target runs WordPress version 6.5.3
+
+**Why it matters:** Exposed version info lets an attacker search for known vulnerabilities.
+
+**Remediation:** Hide version banners and keep the software patched.
+
 ![Flag 2](images/flag2.png)
 
 Flag 3: Directory browsing might reveal where files are stored.
