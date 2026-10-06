@@ -17,6 +17,6 @@ Flag 1: This tells search engines what to and what not to avoid.
 go to the robots.txt which is a text file placed in a website's root directory that tells search engine crawlers and 
 web bots which pages or sections of the site they are allowed to visit
 
-![](/images/Screenshot 2026-10-04 203225.png)
+![Flag 1](/images/flag1.png)
 ![Flag 2](images/flag2.png)
 
