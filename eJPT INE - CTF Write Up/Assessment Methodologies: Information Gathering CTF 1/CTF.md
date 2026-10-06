@@ -320,9 +320,3 @@ The exercise also helped me practice documenting the investigation process from 
 * Security Finding Documentation
 * Security Impact Assessment
 * Security Recommendations
-
-
-Flag 5: Certain files may reveal something interesting when mirrored.
- use HTTRACK and it automatically "mirrors" the site, copying all HTML code, images, and files while rewriting the links so you can browse locally just like you do online
-![Flag 5](images/flag5.png)
-
